@@ -13,9 +13,9 @@ block content
 
         - var cfp_deadline = ""
         if(site.data.defaults.conference.is_online_only === true)
-          - cfp_deadline = date(site.data.defaults.conference.cfp_deadline, config.date_format_hero_online)
+          - cfp_deadline = date(site.data.defaults.conference.cfp_deadline, config.date_format_extended)
         else
-          - cfp_deadline = date(site.data.defaults.conference.cfp_deadline, config.date_format_hero)
+          - cfp_deadline = date(site.data.defaults.conference.cfp_deadline, config.date_format_extended)
 
         p
           strong !{site.data.page_cfp.intro.date_intro} #{cfp_deadline}
