@@ -1,17 +1,17 @@
 intro:
   main_title: "About"
   content_1:
-    "<p>Il <strong>laravelday</strong> è orgogliosamente organizzato da <strong>GrUSP</strong>.</p> 
-     <p>GrUSP è una community fondata nel 2003 come PHP User Group, che è diventata il punto di riferimento in Italia per le buone pratiche in tutti i campi dello sviluppo web.</p>  
+    "<p>Il <strong>laravelday</strong> è orgogliosamente organizzato da <strong>GrUSP</strong>.</p>
+     <p>GrUSP è una community fondata nel 2003 come PHP User Group, che è diventata il punto di riferimento in Italia per le buone pratiche in tutti i campi dello sviluppo web.</p>
      <p>Da allora abbiamo organizzato moltissime conferenze, perseguendo sempre l'obiettivo di creare opportunità per le persone di incontrarsi, imparare, condividere e crescere insieme.</p>"
-  content_2: 
+  content_2:
     "<p><strong>GrUSP</strong> è un'organizzazione no-profit il cui obiettivo è migliorare l'ecosistema italiano di sviluppo web.<br>
-    Organizziamo eventi e workshop di alta qualità per developer, e promuoviamo la creazione di User Group locali (PUG), aiutandoli nelle loro attività.</p> 
+    Organizziamo eventi e workshop di alta qualità per developer, e promuoviamo la creazione di User Group locali (PUG), aiutandoli nelle loro attività.</p>
     <p><h4>La diversità e l'inclusione sono sempre state al centro delle nostre attività.</h4></p>
     <p>Applichiamo un codice di condotta da molti anni e abbiamo programmi di borse di studio (scholarships) per ciascuna delle nostre conferenze.</p>"
 more:
   title: "laravelday"
-  content_1: 
+  content_1:
     "<p>Quest'anno torniamo nuovamente <strong>in presenza dall'hotel San Marco di Verona e online</strong> per vivere una giornata dedicata a Laravel. Ti proponiamo un laravelday ricco di curiosità che riguardano tanto il framework quanto il suo uso a livello professionale.</p><p>Speaker con esperienza e talento condivideranno con te le loro giornate, le loro esperienze e i trucchi del mestiere e avrai occasione di confrontarti con loro durante i momenti di networking.</p>"
   content_2:
 past_edition:

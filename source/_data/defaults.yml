@@ -7,9 +7,9 @@
 conference:
   # Online-only conferences
   is_online_only: false
-  online_location: "online"
-  online_location_title: "Internet"
-  online_location_info: "La conferenza si svolge da remoto"
+  online_location: ""
+  online_location_title: ""
+  online_location_info: ""
 
   # menu and general params
   menu_buy_tickets_label: "Compra il biglietto"
@@ -26,7 +26,7 @@ conference:
   title_pre: ""
   title: "laravelday"
   city: "Verona, hotel San Marco"
-  date: 2022-11-17T10:00+02:00
+  date: 2022-11-17T10:00+01:00
   # Use the next field to override the date in the hero
   hero_date_text:
   countdown_visible: true
@@ -40,24 +40,29 @@ conference:
   # hero_img_credits: "Image by Gianni Careddu - Own work, <a href='https://commons.wikimedia.org/w/index.php?curid=74821344 target='_blank' rel='noopener noreferrer'>CC BY-SA 4.0</a>"
   # "update" component. set the first parameter to true to make it appear in home page, false means hidden
   update_visible: false
-  update_is_warning: false
-  update_warning_header: "Questo testo appare se l'update è impostato a *warning*. Potremmo sostituirlo con un'icona o altro 'segnale'"
+  update_is_warning: true
+  update_warning_header: "Partecipa anche a vueday"
   update_title: "Important information"
   update_description: "This is the description of such important information"
   update_link_url: "https://google.com/"
   update_link_label: "link to google, just for the demo"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
   cfp_open: true
-  cfp_readmore_label: "Proponi il tuo talk!"
-  cfp_open_label: "Dedline:"
-  cfp_open_title: "Call For Paper"
-  cfp_deadline: 2022-09-03T23:00+01:00
+  cfp_readmore_label: "Proponi il tuo talk"
+  cfp_open_label: "Hai tempo fino al"
+  cfp_open_title: "La Call For Paper è aperta!"
+  cfp_deadline: 2022-09-04T23:00+02:00
   cfp_register_label: "Proponi il tuo talk"
   cfp_register_aria_label: "Inviaci ora la tua proposta"
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "Che cos'è?"
-  geninfo_description: "<p>Il <strong>laravel</strong>day è la prima conferenza tutta italiana, nata dalla community per la community, che porta case study reali e best practice raccontati da persone appassionate e professioniste che usano Laravel.</p><p><strong>Un'intera giornata</strong> dedicata al <strong>framework PHP</strong> e al suo ecosistema di package e servizi utilizzati da migliaia di developer in tutto il mondo. Che tu abbia esperienza o sia un neofita di Laravel, ti assicuriamo che i nostri talk sapranno incuriosirti!</p><p>Potrai seguire l'edizione <strong>laravel</strong>day 2022 sia <strong>online</strong> che <strong>in presenza a Verona</strong>.</p><p>Scopri tutti i dettagli dell'evento!</p>"
+  geninfo_description: "<p>Il <strong>laravel</strong>day è la prima conferenza tutta italiana, nata dalla community per la community, che porta case study reali e best practice raccontati da persone appassionate e professioniste che usano Laravel.</p>
+  <p><strong>Giovedì 17 Novembre sarà un'intera giornata dedicata al framework PHP</strong> e al suo ecosistema di package e servizi utilizzati da migliaia di developer in tutto il mondo. Che tu abbia esperienza o sia neofita di Laravel, ti assicuriamo che i nostri talk sapranno incuriosirti!</p>
+  <p>Potrai seguire laravelday 2022 sia <strong>online</strong> che <strong>in presenza a Verona</strong>.</p>
+  <p>Il giorno prima della conferenza (Mercoledì 16 Novembre), nella stessa location, potrai seguire uno dei <b>workshop</b> per approfondire le tue competenze. Saranno annunciati a breve e i biglietti saranno venduti separatamente.</p>
+  <p>Il giorno dopo la conferenza (Venerdì 18 Novembre), nella stessa location, ci sarà <a href='https://vueday.it'>vueday</a>, la conferenza GrUSP dedicata a <b>Vue.js.</b> Con il biglietto per laravelday puoi avere uno <b>sconto sul biglietto per vueday!</b></p>
+  <p>Scopri tutti i dettagli dell'evento!</p>"
   geninfo_about_label: "About"
   geninfo_coc_label: "Codice di condotta"
   geninfo_scholarships_label: "Scholarship"
@@ -67,11 +72,11 @@ conference:
   newsletter_subtitle: "Iscriviti alla nostra newsletter"
   # fields taken from the Mail chimp default form -- set to `true` to add subscription
   newsletter_lists:
-    php: false
+    php: true
     javascript: false
-    design: true
+    design: false
     devops: false
-    frontend: true
+    frontend: false
     ruby: false
     entrepreneurship: false
     local_events: false

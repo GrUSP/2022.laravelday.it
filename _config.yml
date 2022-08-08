@@ -13,9 +13,9 @@ type: website
 slug: laravelday
 edition: 2022
 title: "laravelday 2022"
-description: "laravelday 2022, online conference"
+description: "laravelday 2022 - la conferenza italiana su Laravel"
 #   separate keywords by comma, no spaces
-keywords: conference,software conference,css,ux,design,webdev,tech conference
+keywords: conference,software conference,laravel,php,webdev,tech conference
 author: GrUSP
 language: it
 timezone: 'Europe/Rome'
