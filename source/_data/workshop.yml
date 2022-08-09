@@ -9,8 +9,8 @@ workshops:
     ws_id: workshop_TDD
     is_external: false
     page_uri: "workshop/workshop_TDD.html"
-    page_title: "TDD con Laravel"
-    workshop_title: "TDD con Laravel"
+    page_title: "Workshop: TDD con Laravel"
+    workshop_title: "TDD con Laravel - Aspetti metodologici e strumenti per lo sviluppo basato sui test"
     ticket_url: "https://laravelday-2022.eventbrite.com"
     ticket_label: "Assicurati un posto"
     location_title: "Dove"
@@ -31,24 +31,16 @@ workshops:
     date: 2022-11-16T09:30+01:00
     end_date: 2022-11-16T17:30+01:00
     date_text: "Mercoledì 16 Novembre 2022, dalle 9:30 alle 17:30."
-    language_title: "Lingua"
-    language: "italian / italiano"
-    language_ext: "Language: Italian / Lingua: italiano"
+    language_title: ""
+    language: ""
+    language_ext: ""
     language_additional_info: ""
-    collab: "Aspetti metodologici e strumenti per lo sviluppo basato sui test."
+    collab: ""
     description: "Aspetti metodologici e strumenti per lo sviluppo basato sui test."
     description_long: "La pratica del <b>TDD (Test-Driven Development)</b> permette di realizzare applicazioni robuste, manutenibili ed estendibili by default.
     Il costo apparente di una iniziale maggiore scrittura di codice è in realtà un investimento dal valore inestimabile, che ripaga già nell’immediato in termini di semplicità, flessibilità, chiarezza e minori mal di testa.
     <br> <br /> <b>Il workshop affronta gli aspetti teorico/metodologici e pratici del TDD per lo sviluppo di applicazioni/package Laravel.</b>
-    <br> <br />A prescindere dallo strumento preferito (PHPUnit o PEST) verranno fornite le competenze teoriche e pratiche di base (ma non solo!) per essere in grado di sviluppare le proprie applicazioni ed i propri package Laravel mediante la disciplina del TDD.
-    <br> <br />Al termine del workshop chi partecipa sarà in grado di:
-    <ul>
-    <li>• comprendere l’importanza di una test suite a corredo del proprio codice di produzione;</li>
-    <li>• padroneggiare ed applicare le tecniche discusse per scrivere test suite stabili e complete;</li>
-    <li>• comprendere e valutare i test scritti da altre persone;</li>
-    <li>• proseguire in autonomia lo studio di concetti più avanzati;</li>
-    </ul>
-    <br> <br />"
+    <br> <br />A prescindere dallo strumento preferito (PHPUnit o PEST) verranno fornite le competenze teoriche e pratiche di base (ma non solo!) per essere in grado di sviluppare le proprie applicazioni ed i propri package Laravel mediante la disciplina del TDD."
     # video trailer?
     trailer: false
     trailer_url: ""
@@ -84,8 +76,14 @@ workshops:
       - "Coverage analysis"
       - "Browser test (cenni)"
       - "Mutation testing (cenni)"
-    addressees_title: "A chi è rivolto"
-    addressees_description: ""
+    addressees_title: "Cosa ottieni frequentando il workshop"
+    addressees_description: "Al termine del workshop chi partecipa sarà in grado di:
+    <ul>
+    <li>comprendere l’importanza di una test suite a corredo del proprio codice di produzione;</li>
+    <li>padroneggiare ed applicare le tecniche discusse per scrivere test suite stabili e complete;</li>
+    <li>comprendere e valutare i test scritti da altre persone;</li>
+    <li>proseguire in autonomia lo studio di concetti più avanzati.</li>
+    </ul>"
     requirements_title: "Requisiti di partecipazione"
     requirements_description: "Per partecipare a questo workshop sono necessarie
     <ul>
