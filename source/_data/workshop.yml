@@ -31,8 +31,8 @@ workshops:
     date: 2022-11-16T09:30+01:00
     end_date: 2022-11-16T17:30+01:00
     date_text: "Mercoledì 16 Novembre 2022, dalle 9:30 alle 17:30."
-    language_title: ""
-    language: ""
+    language_title: "Lingua"
+    language: "Italiano"
     language_ext: ""
     language_additional_info: ""
     collab: ""
@@ -85,10 +85,13 @@ workshops:
     <li>proseguire in autonomia lo studio di concetti più avanzati.</li>
     </ul>"
     requirements_title: "Requisiti di partecipazione"
-    requirements_description: "Per partecipare a questo workshop sono necessarie
+    requirements_description: "
+    Il workshop tratterà argomenti di livello intermedio (con alcuni concetti avanzati).
+    <br>Per partecipare sono necessarie le seguenti conoscenze:
     <ul>
-    <li>Conoscenze di base/intermedie di Laravel;</li>
-    <li>Conoscenza di un IDE evoluto (Consigliato PHPStorm).</li>
+    <li>Laravel livello base/intermedio;</li>
+    <li>Padronanza di un IDE di sviluppo evoluto (consigliato: PHPStorm);</li>
+    <li>Git livello base.</li>
     </ul>"
     useful_info_title: "Informazioni utili"
     useful_info_description: "Il corso si svolge a Verona, nella stessa location di laravelday, il giorno prima della conferenza (Mercoledì 16 Novembre 2022).
