@@ -27,7 +27,7 @@ silver:
  sponsor2:
    name: "Invisiblefarm"
    logo_filename: "invisiblefarm.svg"
-   site_url: "www.invisiblefarm.it"
+   site_url: "https://www.invisiblefarm.it"
 #  sponsor4:
 #    name: "Madisoft"
 #    logo_filename: "madisoft.svg"
