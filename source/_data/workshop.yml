@@ -100,3 +100,71 @@ workshops:
     # CTA
     cta_title: "Non perderti questa giornata di formazione avanzata"
 
+  workshop_laravel-vue:
+    ws_id: workshop_laravel-vue
+    is_external: false
+    page_uri: "workshop/workshop_laravel-vue.html"
+    page_title: "Workshop: Laravel Vue SPA"
+    workshop_title: "Laravel Vue SPA"
+    ticket_url: "https://laravelday-2022.eventbrite.com"
+    ticket_label: "Assicurati un posto"
+    location_title: "Dove"
+    location: "Verona"
+    # online_location: "online"
+    location_name: "Hotel San Marco, Verona"
+    # location_name: "The Internet"
+    #location_contact_phone: "+045569011"
+    #location_contact_email: "sanmarco@sanmarco.vr.it"
+    location_contact_url: "https://www.sanmarco.vr.it/"
+    location_address: "Via Longhena 42, 37138 Verona (VR) Italy"
+    location_maps_url: "https://www.google.com/maps/place/Hotel+San+Marco+Fitness+Pool+%26+SPA/@45.4399961,10.9697441,17z/data=!3m1!4b1!4m8!3m7!1s0x4781e1e30a8be6af:0x8091b108e1d130c6!5m2!4m1!1i2!8m2!3d45.4399961!4d10.9719328"
+    location_maps_label: "Get directions"
+    location_additional_info: "L'hotel offre tariffe convenzionate a chi partecipa all'evento."
+    whatandwhen_title: "Come e quando"
+    # whatandwhen_additional_info: "Registrazione, caffè e pranzo inclusi"
+    whatandwhen_additional_info: "Il corso si svolge in presenza, Mercoledì 16 Novembre dalle 9:30 alle 17:30."
+    date: 2022-11-16T09:30+01:00
+    end_date: 2022-11-16T17:30+01:00
+    date_text: "Mercoledì 16 Novembre 2022, dalle 9:30 alle 17:30."
+    language_title: "Lingua"
+    language: "Italiano"
+    language_ext: ""
+    language_additional_info: ""
+    collab: "Workshop realizzato in collaborazione con LaraMind"
+    description: "Come creare un’applicazione completa usando Laravel API ed una SPA (Single Page Application) in Vue.js."
+    description_long: "Scopriamo come creare passo passo <b>un’applicazione completa usando Laravel API ed una SPA (Single Page Application) in Vue.js.</b>
+    Sarà un workshop pratico, che ti permetterà di apprendere secondo le tue reali esigenze.
+    <br> <br />
+    Implementeremo un sistema di autenticazione e di permessi e vedremo come consumare le risorse, come gestire gli upload, gli errori, la pagination, etc.
+    Vedremo i vantaggi, a partire da una migliore User Experience, per chi sceglie la versatilità di Laravel e di Vue.js per SPA.
+    Il tutto sfruttando i design pattern più utilizzati.
+    <br> <br />
+    Con questo corso avrai consapevolezza della versatilità di Lavarel quando viene utilizzato in concomitanza con Vue.js, oltre che una visione più completa, articolata ed avanzata di uno dei framework JavaScript del momento.
+    <br> <br />"
+    # video trailer?
+    trailer: false
+    trailer_url: ""
+    # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
+    teacher_title: "Docente"
+    teachers:
+      teacher_1:
+        teacher_name: "Alessandro Brugioni"
+        teacher_bio: "Front end developer fortemente specializzato in Vue.js con conoscenze anche lato back end, grazie all'utilizzo di Laravel e Node.js. Coordina il team docenti LaraMind per quanto riguarda i corsi a catalogo."
+        pic_filename: "alessandro-brugioni.jpeg"
+        teacher_role: "Front end Developer"
+        teacher_org: ""
+    topics_title: "Argomenti del workshop"
+    topics:
+      - "Sviluppo di un’applicazione completa usando Laravel API"
+      - "Sviluppo di una SPA (Single Page Application) in Vue.js"
+    addressees_title: "Per chi è questo corso"
+    addressees_description: "Si rivolge a tutte le persone che vogliono mettere una marcia in più nello studio e nell’utilizzo di Laravel e Vue.js per lo sviluppo di SPA (Single Page Application). Vue.js è ormai un framework completo, un tool che ti mette in condizione di sviluppare a livello avanzato in ottica front end. Stiamo parlando di una skill che non puoi assolutamente non avere sul tuo cv."
+    requirements_title: "Requisiti di partecipazione"
+    requirements_description: "Per partecipare al workshop è necessaria la conoscenza di Laravel, di JavaScript e delle basi di Vue.js"
+    useful_info_title: "Informazioni utili"
+    useful_info_description: "Il corso si svolge a Verona, nella stessa location di laravelday, il giorno prima della conferenza (Mercoledì 16 Novembre 2022).
+    <br>Sono inclusi nel biglietto il pranzo e le pause caffè.
+    <br><b>Il biglietto per il corso è venduto separatamente da quello per la conferenza.</b>"
+    # CTA
+    cta_title: "Impara a usare Laravel con Vue.js"
+

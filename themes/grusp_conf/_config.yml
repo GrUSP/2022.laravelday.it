@@ -16,6 +16,7 @@ menu:
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
 workshop_submenu:
    workshop_TDD: TDD con Laravel
+   workshop_laravel-vue: Laravel Vue SPA
 
 # welcome submenu
 welcome_submenu:
