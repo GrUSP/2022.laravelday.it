@@ -163,7 +163,7 @@ workshops:
     addressees_title: "Per chi è questo corso"
     addressees_description: "Si rivolge a tutte le persone che vogliono mettere una marcia in più nello studio e nell’utilizzo di Laravel e Vue.js per lo sviluppo di SPA (Single Page Application). Vue.js è ormai un framework completo, un tool che ti mette in condizione di sviluppare a livello avanzato in ottica front end. Stiamo parlando di una skill che non puoi assolutamente non avere sul tuo cv."
     requirements_title: "Requisiti di partecipazione"
-    requirements_description: "Il workshop è di livello intermedio. Per partecipare è necessaria la conoscenza di PHP e JavaScript, e delle basi di Laravel e Vue.js"
+    requirements_description: "Il workshop è di livello intermedio. Per partecipare è necessaria un'ottima conoscenza di PHP e JavaScript, e delle basi di Laravel e Vue.js"
     useful_info_title: "Informazioni utili"
     useful_info_description: "Il corso si svolge a Verona, nella stessa location di laravelday, il giorno prima della conferenza (Mercoledì 16 Novembre 2022).
     <br>Sono inclusi nel biglietto il pranzo e le pause caffè.
