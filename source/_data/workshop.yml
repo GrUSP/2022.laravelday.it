@@ -130,7 +130,7 @@ workshops:
     language: "Italiano"
     language_ext: ""
     language_additional_info: ""
-    collab: "Workshop realizzato in collaborazione con LaraMind"
+    collab: "Workshop realizzato in collaborazione con <a href='https://www.laramind.com/'>LaraMind</a>"
     description: "Come creare un’applicazione completa usando Laravel API ed una SPA (Single Page Application) in Vue.js."
     description_long: "Scopriamo come creare passo passo <b>un’applicazione completa usando Laravel API ed una SPA (Single Page Application) in Vue.js.</b>
     Sarà un workshop pratico, che ti permetterà di apprendere secondo le tue reali esigenze.
@@ -149,18 +149,21 @@ workshops:
     teachers:
       teacher_1:
         teacher_name: "Alessandro Brugioni"
-        teacher_bio: "Front end developer fortemente specializzato in Vue.js con conoscenze anche lato back end, grazie all'utilizzo di Laravel e Node.js. Coordina il team docenti LaraMind per quanto riguarda i corsi a catalogo."
+        teacher_bio: "Front-end developer fortemente specializzato in Vue.js con conoscenze anche lato back end, grazie all'utilizzo di Laravel e Node.js. Coordina il team docenti LaraMind per quanto riguarda i corsi a catalogo."
         pic_filename: "alessandro-brugioni.jpeg"
-        teacher_role: "Front end Developer"
+        teacher_role: "Front-end Developer, docente LaraMind"
         teacher_org: ""
     topics_title: "Argomenti del workshop"
     topics:
       - "Sviluppo di un’applicazione completa usando Laravel API"
       - "Sviluppo di una SPA (Single Page Application) in Vue.js"
+      - "Versatilità Laravel e Vue.js in ottica UI/UX di un applicativo web"
+      - "Design pattern più comuni"
+      - "Gestione upload, errori e pagination"
     addressees_title: "Per chi è questo corso"
     addressees_description: "Si rivolge a tutte le persone che vogliono mettere una marcia in più nello studio e nell’utilizzo di Laravel e Vue.js per lo sviluppo di SPA (Single Page Application). Vue.js è ormai un framework completo, un tool che ti mette in condizione di sviluppare a livello avanzato in ottica front end. Stiamo parlando di una skill che non puoi assolutamente non avere sul tuo cv."
     requirements_title: "Requisiti di partecipazione"
-    requirements_description: "Per partecipare al workshop è necessaria la conoscenza di Laravel, di JavaScript e delle basi di Vue.js"
+    requirements_description: "Il workshop è di livello intermedio. Per partecipare è necessaria la conoscenza di PHP e JavaScript, e delle basi di Laravel e Vue.js"
     useful_info_title: "Informazioni utili"
     useful_info_description: "Il corso si svolge a Verona, nella stessa location di laravelday, il giorno prima della conferenza (Mercoledì 16 Novembre 2022).
     <br>Sono inclusi nel biglietto il pranzo e le pause caffè.
