@@ -16,7 +16,7 @@ speaker_1: &filippo_galante
 speaker_2: &bryan_ferracuti
   speaker_in_speaker_lists: true
   speaker_name: Bryan Ferracuti
-  speaker_pic_filename: bryan_ferracuti.png
+  speaker_pic_filename: bryan_ferracuti.jpg
   speaker_role: "Senior Developer @ Cooder"
   speaker_bio: "Residente a Porto Sant'Elpidio, in provincia di Fermo, mi sono Laureato al corso di laurea magistrale nel Giugno del 2022 alla facoltà Sapienza di Roma in Ingegneria Informatica con una tesi sperimentale sulle tecnologie serverless.<br/>Successivamente sono entrato a far parte delle famiglia Cooder per applicare i miei studi nell'evoluzione di un prodotto custom dedicato al mondo eCommerce e non, per migliorarne le performance nella gestione delle code attraverso il servizio SQS."
   speaker_github_url: ""
