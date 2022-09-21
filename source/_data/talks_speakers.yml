@@ -4,18 +4,88 @@ schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: .jpg
-  speaker_role: ""
-  speaker_bio: ""
+speaker_1: &filippo_galante
+  speaker_in_speaker_lists: true
+  speaker_name: Filippo Galante
+  speaker_pic_filename: filippo_galante.png
+  speaker_role: "Backend Tech Lead @ Jobtech"
+  speaker_bio: "Nasco come full stack web developer specializzato nel linguaggio PHP e un grande appassionato del Laravel. Ho iniziato a lavorare con questo framework a partire dalla sua release 4.2. Da li in avanti ho continuato ad migliorare la mia conoscenza del linguaggio PHP e ad entrare sempre più a fondo nel codice sorgente di Laravel, dei suoi packages ufficiali e di quelli forniti dalla community.<br/>Attualmente, ricopro il ruolo di backend tech lead in una scale up milanese chiamata Jobtech"
+  speaker_github_url: "https://github.com/ilgala"
+  speaker_twitter_url: ""
+  is_mc: false
+speaker_2: &bryan_ferracuti
+  speaker_in_speaker_lists: true
+  speaker_name: Bryan Ferracuti
+  speaker_pic_filename: bryan_ferracuti.jpg
+  speaker_role: "Senior Developer @ Cooder"
+  speaker_bio: "Residente a Porto Sant'Elpidio, in provincia di Fermo, mi sono Laureato al corso di laurea magistrale nel Giugno del 2022 alla facoltà Sapienza di Roma in Ingegneria Informatica con una tesi sperimentale sulle tecnologie serverless.<br/>Successivamente sono entrato a far parte delle famiglia Cooder per applicare i miei studi nell'evoluzione di un prodotto custom dedicato al mondo eCommerce e non, per migliorarne le performance nella gestione delle code attraverso il servizio SQS."
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  is_mc: false
+speaker_3: &christian_nastasi
+  speaker_in_speaker_lists: true
+  speaker_name: Christian Nastasi
+  speaker_pic_filename: christian_nastasi.png
+  speaker_role: "Team Leader @ Facile.it"
+  speaker_bio: "Team Leader in Facile.it. Specializzato in sviluppo architetture strutturate e modulari, DDD , Clean Architecture e cosacce di questo genere. Adoro le t-shirt nerd."
+  speaker_github_url: "https://twitter.com/c_nastasi"
+  speaker_twitter_url: "https://github.com/cnastasi"
+  is_mc: false
+speaker_4: &roberto_butti
+  speaker_in_speaker_lists: true
+  speaker_name: Roberto Butti
+  speaker_pic_filename: roberto_butti.png
+  speaker_role: "Developer Relations Engineer @ Storyblok"
+  speaker_bio: "Appassionato dello sviluppo in ambito Web, adoro seguire progetti open source PHP/Laravel e tenermi agggiornato sui più moderni framework frontend Svelte, Vue, React."
+  speaker_github_url: "https://github.com/roberto-butti/"
+  speaker_twitter_url: "https://twitter.com/RmeetsH"
+  is_mc: false
+speaker_5: &gabriele_cavigiolo
+  speaker_in_speaker_lists: true
+  speaker_name: Gabriele Cavigiolo
+  speaker_pic_filename: gabriele_cavigiolo.png
+  speaker_role: "Senior BE Dev @ Synesthesia"
+  speaker_bio: "Progetto e sviluppo architetture BE basate cloud, da sempre innamorato dei server, dell'informatica a basso livello, in conflitto con il frontend, se il tutto il mondo fosse basato su JSON sarebbe un posto migliore.<br/>Senior BE dev @ Synesthesia e docente di Architetture Serverless @ ITS itc Piemonte"
+  speaker_github_url: "https://twitter.com/MrGabriCavi"
+  speaker_twitter_url: "https://github.com/MrGabriCavi"
+  is_mc: false
+speaker_6: &francesco_liuzzi
+  speaker_in_speaker_lists: true
+  speaker_name: Francesco Liuzzi
+  speaker_pic_filename: francesco_liuzzi.png
+  speaker_role: "Chief Architect @ Sideagroup.com"
+  speaker_bio: "Sono un'appassionato di tecnologia fin dalla tenera età, del mondo laravel in particolare :) Il mio focus attuale è sul mondo serverless"
+  speaker_github_url: "https://github.com/franc-liuzzi"
+  speaker_twitter_url: ""
+  is_mc: false
+speaker_7: &marco_insabato
+  speaker_in_speaker_lists: true
+  speaker_name: Marco Insabato
+  speaker_pic_filename: marco_insabato.png
+  speaker_role: "Coordinatore Hackademy @ Aulab"
+  speaker_bio: "Sviluppatore full stack con un passato da startupper; adesso docente e freelancer, nell'ultimo anno mi sono dedicato all'insegnamento delle basi dello sviluppo front end presso Aulab srl e allo studio delle nuove tecnologie del settore come Tailwind CSS, Alpine.js, Vue.js e React.<br/>Appassionato delle metodologie agili, soprattutto dello scrum, grazie agli insegnamenti del coach Giancarlo Valente, sono alla costante ricerca di nuove sfide e tecnologie da imparare e implementare nei miei progetti. "
+  speaker_github_url: "https://github.com/marcoinsabato"
+  speaker_twitter_url: ""
+  is_mc: false
+speaker_8: &carlo_tafuro
+  speaker_in_speaker_lists: true
+  speaker_name: Carlo Tafuro
+  speaker_pic_filename: carlo_tafuro.png
+  speaker_role: "Sviluppo software presso Università del Salento"
+  speaker_bio: "La mia occupazione principale è presso l'Università del Salento dove mi occupo di sviluppo software. Ho collaborato con diverse aziende private e altri enti pubblici su tematiche connesse allo sviluppo Laravel Wordpress e Drupal "
   speaker_github_url: ""
   speaker_twitter_url: ""
   is_mc: false
 
 speakers:
-  speaker_1: *speaker
+  speaker_1: *filippo_galante
+  speaker_2: *bryan_ferracuti
+  speaker_3: *christian_nastasi
+  speaker_4: *roberto_butti
+  speaker_5: *gabriele_cavigiolo
+  speaker_6: *francesco_liuzzi
+  speaker_7: *marco_insabato
+  speaker_8: *carlo_tafuro
 
 tracks:
   track_1: &track_1
@@ -54,13 +124,83 @@ days:
         service_icon: "glass"
 
       # talk
-      titolotalk1:
+      talk_filippo_galante:
         item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T10:25+02:00
         # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: ""
-        talk_description: ""
+        talk_title: "Abbiamo fatto una kafkata"
+        talk_description: "Passare da un’architettura monolitica ai microservizi non è semplice. In Jobtech abbiamo comunque iniziato questo percorso e abbiamo lavorato sodo non solo all’architettura di microservizi in Laravel 9 ma anche alla comunicazione tra di loro. Come message broker abbiamo deciso di integrare Apache Kafka e, dopo numerose analisi, abbiamo sviluppato un package che fa da wrapper per comunicare con Kafka. Ma non solo, abbiamo creato anche uno scaffolding base per i vari microservizi, diversi strumenti accessori per facilitare lo sviluppo degli stessi e automatizzato il processo CI / CD per l’infrastruttura di test e produzione su Kubernetes. In questo talk approfondiremo i vari aspetti del processo che ci ha portato a… fare una kafkata!"
         # talk_video_url:
         speakers:
-          speaker_1: *speaker
+          speaker_1: *filippo_galante
+      talk_bryan_ferracuti:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Laravel Queue: quale driver scegliere"
+        talk_description: "Laravel supporta un utilizzo avanzato delle code attraverso diversi driver, Redis, Sql ed Sqs. Andremo a vedere perchè e come andare a implementare e configurare le code con i vari driver all'interno di un sistema complesso basato su Laravel , concludendo con un confronto fra l'utilizzo dei tre differenti Driver."
+        # talk_video_url:
+        speakers:
+          speaker_1: *bryan_ferracuti
+      talk_christian_nastasi:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Laravel ♡ Enterprise"
+        talk_description: "“Laravel è un giocattolino interessante, utile solo per siti di piccole dimensione e prototipi. Non è adatto per grandi progetti! Per quelli dovete usare Symfony o Zend (aka Laminas)”<br/>Quante volte avete sentito questo genere di opinioni? Ma sarà vero? La mia risposta è no!<br/>Laravel è vero, permette lo sviluppo rapido di un applicazione ma è perfettamente in grado di competere con gli altri framwework quando si parla di progetti Enteprise, molto complessi e con un ciclo di vita molto lungo (diversi anni).<br/>Tuttavia, esattamente come per gli altri framework, sono necessarie qualità e disciplina. All'aumentare delle features è facile che, per fare prima, si prendano scorciatoie, e di conseguenza aumentino la complessità ed il debito tecnico.<br/>Esistono quindi una serie di accorgimenti utili ad evitare che il nostro codice diventi una spaghettata, con scarsa manutenibilità, debito tecnico astronomico e costo per ogni nuova feature altrettanto alto.<br/>>Per dimostrarlo, verrà svolto un esercizio semplice ma efficace: partendo da una feature molto basica ma sufficientemente significativa, si proverà ad aggiungere requisiti, esattamente come avviene nei progetti di lunga durata, aumentando di conseguenza la complessità.<br/>Verranno quindi mostrate quali strategie adottare per fare in modo che il codice rimanga semplice e manutenibile nel corso degli anni, limitando l’aumentare del debito tecnico."
+        # talk_video_url:
+        speakers:
+          speaker_1: *christian_nastasi
+      talk_roberto_butti:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Aumentare le prestazioni dell'applicazione web con Laravel Octane"
+        talk_description: "Laravel è molto più che un framework.<br/>Laravel è un ecosistema (supportato da una grande community) con tool, servizi e librerie che permettono di progettare, sviluppare, rilasciare ed evolvere applicazioni Web.<br/>Oggi, si parla molto di applicazioni performanti, scalabili, veloci, che siano in grado di supportare un elevato numero di utenti concorrenti e di conseguenza, di un elevato numero di richieste concorrenti.<br/>Nell'ecosistema Laravel, lo strumento Laravel Octane ci permette di ottimizzare le applicazioni tramite tecniche come il riuso delle istanze degli oggetti del framework, l'esecuzione asincrona, la predisposizione di meccanismi di storage (Swoole Table) e di caching.<br/>Durante il talk verrà mostrato l'utilizzo di Laravel Octane in una applicazione web, nelle fasi di installazione, configurazione, implementazione ed utilizzo dei meccanismi asincroni.<br/>Inoltre  verranno mostrate le implicazioni e gli accorgimenti da adottare per un utilizzo efficace di Laravel Octane per evitare problemi di memory leak e di deadlock."
+        # talk_video_url:
+        speakers:
+          speaker_1: *roberto_butti
+      talk_gabriele_cavigiolo:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Laravel e Passport: a guardia della tua infrastruttura cloud"
+        talk_description: "Un esempio pratico di come Laravel in tandem con Passport possa creare un valido portone d'ingresso per un'intera infrastruttura cloud. Nel case study analizzato abbiamo implementato un sistema di autenticazione su standard OAuth 2.0 e JWT/Open ID token per un'infrastruttura formata da microservizi e servizi API sviluppati da diverse tecnologie: Laravel, Lumen, Java Spring, Python. Tutti i microservizi accettano e autenticano grazie al token rilasciato da Laravel + Passport. E se servisse autenticare tramite Google Business Suite? Abbiamo pensato una soluzione anche per quello."
+        # talk_video_url:
+        speakers:
+          speaker_1: *gabriele_cavigiolo
+      talk_francesco_liuzzi:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Deploy di Laravel su AWS Lambda (from Zero to Hero)"
+        talk_description: "Grazie a Serverless e Bref.sh è possibile mettere (facilmente) online una web-app in Laravel su AWS. Vedremo come è possibile dar vita ad un’architettura complessa (con web server, object storage, code, database, mail, webhook e CDN) ad alta disponibiltà e scalabile, mantenendo un costo basso ed utilizzando esclusivamente servizi fully-managed."
+        # talk_video_url:
+        speakers:
+          speaker_1: *francesco_liuzzi
+      talk_marco_insabato:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Implementa la ricerca con il linguaggio naturale in Laravel"
+        talk_description: "Stanco degli algoritmi di ricerca per parole chiave? Laravel Scout ci permette di implementare algoritmi di ricerca custom. Perchè non implementare in Laravel i modelli BERT pre-addestrati di google?"
+        # talk_video_url:
+        speakers:
+          speaker_1: *marco_insabato
+      talk_carlo_tafuro:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "\"User Account Provisioning\" in Laravel + SSO con SimpleSAMLphp"
+        talk_description: "L'esperienza che si intende descrivere nasce da specifiche richieste di un operatore commerciale che vende i suo prodotti attraverso più canali di ecommerce rivolti ad aree geografiche distinte.<br/>L'esigenza da soddisfare è stata quella di creare un unico aggregatore di account utente (clienti) con un cruscotto in cui l'utente potesse effettuare la registrazione e aggiornare i dati del proprio profilo comprese le credenziali di accesso.<br/>Il cruscotto è stato realizzato in Laravel e l'autenticazione al cruscotto stesso e ai diversi canali di ecommerce (basati su WooCommerce e Shopify) è stata governata da un identity provider in SSO basato su SimpleSAMLphp.<br/>L'identity provider necessita di avere un backend di dati utente per convalidare la password e per costruire un payload con i dati del profilo utente da condividere con i service provider federati (siti di ecommerce), è stato quindi sviluppato un modulo di SimpleSAMLphp che interroga il cruscotto Laravel attraverso una chiamata json ad una rotta api per convalidare la password fornita dall'utente sul modulo di login e per riceve in risposta i dati del profilo.<br/>Lo stesso cruscotto Laravel è stato a sua volta federato come service provider per un accesso in SSO grazie al package aacotroneo/laravel-saml2.<br/>Particolare attenzione è stata fornita alla protezione della rotta api esposta da Laravel ad uso e consumo di SimpleSAMLphp definendo un meccanismo di autenticazione della chiamata e modificando il rate limit impostato di default da Laravel sulle rotte di tipo api."
+        # talk_video_url:
+        speakers:
+          speaker_1: *carlo_tafuro
