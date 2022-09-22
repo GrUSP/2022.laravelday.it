@@ -1,7 +1,7 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
 generate_schedule_page: false
-schedule_under_construction_title: "Schedule under construction"
-schedule_under_construction_description: "We are still defining the schedule. Please be patient"
+schedule_under_construction_title: "Il programma è in corso di definizione"
+schedule_under_construction_description: "A breve pubblicheremo l'agenda della conferenza"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
 speaker_1: &filippo_galante
@@ -28,8 +28,8 @@ speaker_3: &christian_nastasi
   speaker_pic_filename: christian_nastasi.png
   speaker_role: "Team Leader @ Facile.it"
   speaker_bio: "Team Leader in Facile.it. Specializzato in sviluppo architetture strutturate e modulari, DDD , Clean Architecture e cosacce di questo genere. Adoro le t-shirt nerd."
-  speaker_github_url: "https://twitter.com/c_nastasi"
-  speaker_twitter_url: "https://github.com/cnastasi"
+  speaker_github_url: "https://github.com/cnastasi"
+  speaker_twitter_url: "https://twitter.com/c_nastasi"
   is_mc: false
 speaker_4: &roberto_butti
   speaker_in_speaker_lists: true
@@ -46,8 +46,8 @@ speaker_5: &gabriele_cavigiolo
   speaker_pic_filename: gabriele_cavigiolo.png
   speaker_role: "Senior BE Dev @ Synesthesia"
   speaker_bio: "Progetto e sviluppo architetture BE basate cloud, da sempre innamorato dei server, dell'informatica a basso livello, in conflitto con il frontend, se il tutto il mondo fosse basato su JSON sarebbe un posto migliore.<br/>Senior BE dev @ Synesthesia e docente di Architetture Serverless @ ITS itc Piemonte"
-  speaker_github_url: "https://twitter.com/MrGabriCavi"
-  speaker_twitter_url: "https://github.com/MrGabriCavi"
+  speaker_github_url: "https://github.com/MrGabriCavi"
+  speaker_twitter_url: "https://twitter.com/MrGabriCavi"
   is_mc: false
 speaker_6: &francesco_liuzzi
   speaker_in_speaker_lists: true
@@ -71,20 +71,20 @@ speaker_8: &carlo_tafuro
   speaker_in_speaker_lists: true
   speaker_name: Carlo Tafuro
   speaker_pic_filename: carlo_tafuro.png
-  speaker_role: "Sviluppo software presso Università del Salento"
+  speaker_role: "Sviluppo software @ Università del Salento"
   speaker_bio: "La mia occupazione principale è presso l'Università del Salento dove mi occupo di sviluppo software. Ho collaborato con diverse aziende private e altri enti pubblici su tematiche connesse allo sviluppo Laravel Wordpress e Drupal "
   speaker_github_url: ""
   speaker_twitter_url: ""
   is_mc: false
 
 speakers:
-  speaker_1: *filippo_galante
-  speaker_2: *bryan_ferracuti
-  speaker_3: *christian_nastasi
-  speaker_4: *roberto_butti
-  speaker_5: *gabriele_cavigiolo
+  speaker_1: *roberto_butti
+  speaker_2: *gabriele_cavigiolo
+  speaker_3: *bryan_ferracuti
+  speaker_4: *filippo_galante
+  speaker_5: *marco_insabato
   speaker_6: *francesco_liuzzi
-  speaker_7: *marco_insabato
+  speaker_7: *christian_nastasi
   speaker_8: *carlo_tafuro
 
 tracks:
