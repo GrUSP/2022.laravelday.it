@@ -54,7 +54,7 @@ speaker_6: &francesco_liuzzi
   speaker_name: Francesco Liuzzi
   speaker_pic_filename: francesco_liuzzi.png
   speaker_role: "Chief Architect @ Sideagroup.com"
-  speaker_bio: "Sono un'appassionato di tecnologia fin dalla tenera età, del mondo laravel in particolare :) Il mio focus attuale è sul mondo serverless"
+  speaker_bio: "Sono un appassionato di tecnologia fin dalla tenera età, del mondo laravel in particolare :) Il mio focus attuale è sul mondo serverless"
   speaker_github_url: "https://github.com/franc-liuzzi"
   speaker_twitter_url: ""
   is_mc: false
