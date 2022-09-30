@@ -23,10 +23,6 @@ gold:
    name: "StoryBlok"
    logo_filename: "storyblok.svg"
    site_url: "https://www.storyblok.com/"
- sponsor3:
-   name: "workwave"
-   logo_filename: "workwave.svg"
-   site_url: "https://www.workwave.com/"
 silver:
  sponsor1:
    name: "Daruma"
@@ -36,15 +32,15 @@ silver:
    name: "Invisiblefarm"
    logo_filename: "invisiblefarm.svg"
    site_url: "https://www.invisiblefarm.it"
-#  sponsor4:
-#    name: "Madisoft"
-#    logo_filename: "madisoft.svg"
-#    site_url: "https://labs.madisoft.it"
-#  sponsor6:
-#    name: "SiteGround"
-#    logo_filename: "siteground.png"
-#    site_url: "https://www.siteground.com/"
+ sponsor3:
+   name: "workwave"
+   logo_filename: "workwave.svg"
+   site_url: "https://www.workwave.com/"
 bronze:
+  sponsor0:
+    name: "extera"
+    logo_filename: "extera.png"
+    site_url: "ttps://www.extera.com/"
   sponsor1:
     name: "Facile.it"
     logo_filename: "facile.svg"
