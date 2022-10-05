@@ -40,7 +40,7 @@ bronze:
   sponsor0:
     name: "extera"
     logo_filename: "extera.png"
-    site_url: "ttps://www.extera.com/"
+    site_url: "https://www.extera.com/"
   sponsor1:
     name: "Facile.it"
     logo_filename: "facile.svg"
