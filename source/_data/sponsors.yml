@@ -20,6 +20,10 @@ gold:
    logo_filename: "beliven.svg"
    site_url: "https://beliven.com/"
  sponsor2:
+   name: "Jobtech"
+   logo_filename: "jobtech.svg"
+   site_url: "https://jobtech.it"
+ sponsor3:
    name: "StoryBlok"
    logo_filename: "storyblok.svg"
    site_url: "https://www.storyblok.com/"
@@ -33,6 +37,10 @@ silver:
    logo_filename: "invisiblefarm.svg"
    site_url: "https://www.invisiblefarm.it"
  sponsor3:
+   name: "Sidea Group"
+   logo_filename: "sidea.svg"
+   site_url: "https://www.sideagroup.com/"
+ sponsor4:
    name: "workwave"
    logo_filename: "workwave.svg"
    site_url: "https://www.workwave.com/"
@@ -45,10 +53,10 @@ bronze:
     name: "Facile.it"
     logo_filename: "facile.svg"
     site_url: "https://www.facile.it/"
-#  sponsor2:
-#    name: "stickermule"
-#    logo_filename: "stickermule.svg"
-#    site_url: "https://mule.to/p2gc"
+  sponsor2:
+    name: "Synesthesia"
+    logo_filename: "synesthesia.svg"
+    site_url: "https://synesthesia.it/"
 diversity:
  sponsor1:
    name: "StoryBlok"

@@ -1,5 +1,5 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: false
+generate_schedule_page: true
 schedule_under_construction_title: "Il programma è in corso di definizione"
 schedule_under_construction_description: "A breve pubblicheremo l'agenda della conferenza"
 
@@ -105,102 +105,125 @@ days:
     date: 2020-09-16T09:00
     title: "Day 1"
     talks:
-      talk_1:
+      # service
+      checkin:
         item_type: "service"
-        start_datetime: 2020-09-16T09:00
-        end_datetime: 2020-09-16T09:30
-        talk_title: "Check-in"
-      talk_2:
+        start_datetime: 2022-11-17T08:45+01:00
+        end_datetime: 2022-11-17T09:30+01:00
+        talk_title: "Check-in e Welcome Coffee"
+      opening:
         item_type: "service"
-        start_datetime: 2022-05-19T13:00+02:00
-        end_datetime: 2022-05-19T14:30+02:00
-        talk_title: "Lunch break"
+        start_datetime: 2022-11-17T09:30+01:00
+        end_datetime: 2022-11-17T09:45+01:00
+        talk_title: "Opening by GrUSP"
+      coffee-morning:
+        item_type: "service"
+        start_datetime: 2022-11-17T11:05+01:00
+        end_datetime: 2022-11-17T11:35+01:00
+        talk_title: "Coffee break"
+        service_icon: "coffee"
+      lunch:
+        item_type: "service"
+        start_datetime: 2022-11-17T12:55+01:00
+        end_datetime: 2022-11-17T14:00+01:00
+        talk_title: "Pausa Pranzo"
         service_icon: "cutlery"
-      happy-hour:
+      lightning:
         item_type: "service"
-        start_datetime: 2022-05-19T18:25+02:00
-        end_datetime: 2022-05-19T19:30+02:00
-        talk_title: "Happy Hour"
-        service_icon: "glass"
+        start_datetime: 2022-11-17T14:00+01:00
+        end_datetime: 2022-11-17T14:30+01:00
+        talk_title: "Lightning talk"
+      coffee-afternoon:
+        item_type: "service"
+        start_datetime: 2022-11-17T15:50+01:00
+        end_datetime: 2022-11-17T16:20+01:00
+        talk_title: "Coffee break"
+        service_icon: "coffee"
+      closing:
+        item_type: "service"
+        start_datetime: 2022-11-17T17:40+01:00
+        end_datetime: 2022-11-17T17:50+01:00
+        talk_title: "Closing by GrUSP"
+
 
       # talk
-      talk_filippo_galante:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Abbiamo fatto una kafkata"
-        talk_description: "Passare da un’architettura monolitica ai microservizi non è semplice. In Jobtech abbiamo comunque iniziato questo percorso e abbiamo lavorato sodo non solo all’architettura di microservizi in Laravel 9 ma anche alla comunicazione tra di loro. Come message broker abbiamo deciso di integrare Apache Kafka e, dopo numerose analisi, abbiamo sviluppato un package che fa da wrapper per comunicare con Kafka. Ma non solo, abbiamo creato anche uno scaffolding base per i vari microservizi, diversi strumenti accessori per facilitare lo sviluppo degli stessi e automatizzato il processo CI / CD per l’infrastruttura di test e produzione su Kubernetes. In questo talk approfondiremo i vari aspetti del processo che ci ha portato a… fare una kafkata!"
-        # talk_video_url:
-        speakers:
-          speaker_1: *filippo_galante
-      talk_bryan_ferracuti:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Laravel Queue: quale driver scegliere"
-        talk_description: "Laravel supporta un utilizzo avanzato delle code attraverso diversi driver, Redis, Sql ed Sqs. Andremo a vedere perchè e come andare a implementare e configurare le code con i vari driver all'interno di un sistema complesso basato su Laravel , concludendo con un confronto fra l'utilizzo dei tre differenti Driver."
-        # talk_video_url:
-        speakers:
-          speaker_1: *bryan_ferracuti
       talk_christian_nastasi:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
+        start_datetime: 2022-11-17T09:45+01:00
+        end_datetime: 2022-11-17T10:25+01:00
         talk_title: "Laravel ♡ Enterprise"
         talk_description: "“Laravel è un giocattolino interessante, utile solo per siti di piccole dimensione e prototipi. Non è adatto per grandi progetti! Per quelli dovete usare Symfony o Zend (aka Laminas)”<br/>Quante volte avete sentito questo genere di opinioni? Ma sarà vero? La mia risposta è no!<br/>Laravel è vero, permette lo sviluppo rapido di un applicazione ma è perfettamente in grado di competere con gli altri framwework quando si parla di progetti Enteprise, molto complessi e con un ciclo di vita molto lungo (diversi anni).<br/>Tuttavia, esattamente come per gli altri framework, sono necessarie qualità e disciplina. All'aumentare delle features è facile che, per fare prima, si prendano scorciatoie, e di conseguenza aumentino la complessità ed il debito tecnico.<br/>Esistono quindi una serie di accorgimenti utili ad evitare che il nostro codice diventi una spaghettata, con scarsa manutenibilità, debito tecnico astronomico e costo per ogni nuova feature altrettanto alto.<br/>>Per dimostrarlo, verrà svolto un esercizio semplice ma efficace: partendo da una feature molto basica ma sufficientemente significativa, si proverà ad aggiungere requisiti, esattamente come avviene nei progetti di lunga durata, aumentando di conseguenza la complessità.<br/>Verranno quindi mostrate quali strategie adottare per fare in modo che il codice rimanga semplice e manutenibile nel corso degli anni, limitando l’aumentare del debito tecnico."
         # talk_video_url:
         speakers:
           speaker_1: *christian_nastasi
-      talk_roberto_butti:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Aumentare le prestazioni dell'applicazione web con Laravel Octane"
-        talk_description: "Laravel è molto più che un framework.<br/>Laravel è un ecosistema (supportato da una grande community) con tool, servizi e librerie che permettono di progettare, sviluppare, rilasciare ed evolvere applicazioni Web.<br/>Oggi, si parla molto di applicazioni performanti, scalabili, veloci, che siano in grado di supportare un elevato numero di utenti concorrenti e di conseguenza, di un elevato numero di richieste concorrenti.<br/>Nell'ecosistema Laravel, lo strumento Laravel Octane ci permette di ottimizzare le applicazioni tramite tecniche come il riuso delle istanze degli oggetti del framework, l'esecuzione asincrona, la predisposizione di meccanismi di storage (Swoole Table) e di caching.<br/>Durante il talk verrà mostrato l'utilizzo di Laravel Octane in una applicazione web, nelle fasi di installazione, configurazione, implementazione ed utilizzo dei meccanismi asincroni.<br/>Inoltre  verranno mostrate le implicazioni e gli accorgimenti da adottare per un utilizzo efficace di Laravel Octane per evitare problemi di memory leak e di deadlock."
-        # talk_video_url:
-        speakers:
-          speaker_1: *roberto_butti
       talk_gabriele_cavigiolo:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
+        start_datetime: 2022-11-17T10:25+01:00
+        end_datetime: 2022-11-17T11:05+01:00
         talk_title: "Laravel e Passport: a guardia della tua infrastruttura cloud"
         talk_description: "Un esempio pratico di come Laravel in tandem con Passport possa creare un valido portone d'ingresso per un'intera infrastruttura cloud. Nel case study analizzato abbiamo implementato un sistema di autenticazione su standard OAuth 2.0 e JWT/Open ID token per un'infrastruttura formata da microservizi e servizi API sviluppati da diverse tecnologie: Laravel, Lumen, Java Spring, Python. Tutti i microservizi accettano e autenticano grazie al token rilasciato da Laravel + Passport. E se servisse autenticare tramite Google Business Suite? Abbiamo pensato una soluzione anche per quello."
         # talk_video_url:
         speakers:
           speaker_1: *gabriele_cavigiolo
+      talk_filippo_galante:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-11-17T11:35+01:00
+        end_datetime: 2022-11-17T12:15+01:00
+        talk_title: "Abbiamo fatto una kafkata"
+        talk_description: "Passare da un’architettura monolitica ai microservizi non è semplice. In Jobtech abbiamo comunque iniziato questo percorso e abbiamo lavorato sodo non solo all’architettura di microservizi in Laravel 9 ma anche alla comunicazione tra di loro. Come message broker abbiamo deciso di integrare Apache Kafka e, dopo numerose analisi, abbiamo sviluppato un package che fa da wrapper per comunicare con Kafka. Ma non solo, abbiamo creato anche uno scaffolding base per i vari microservizi, diversi strumenti accessori per facilitare lo sviluppo degli stessi e automatizzato il processo CI / CD per l’infrastruttura di test e produzione su Kubernetes. In questo talk approfondiremo i vari aspetti del processo che ci ha portato a… fare una kafkata!"
+        # talk_video_url:
+        speakers:
+          speaker_1: *filippo_galante
       talk_francesco_liuzzi:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
+        start_datetime: 2022-11-17T12:15+01:00
+        end_datetime: 2022-11-17T12:55+01:00
         talk_title: "Deploy di Laravel su AWS Lambda (from Zero to Hero)"
         talk_description: "Grazie a Serverless e Bref.sh è possibile mettere (facilmente) online una web-app in Laravel su AWS. Vedremo come è possibile dar vita ad un’architettura complessa (con web server, object storage, code, database, mail, webhook e CDN) ad alta disponibiltà e scalabile, mantenendo un costo basso ed utilizzando esclusivamente servizi fully-managed."
         # talk_video_url:
         speakers:
           speaker_1: *francesco_liuzzi
-      talk_marco_insabato:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Implementa la ricerca con il linguaggio naturale in Laravel"
-        talk_description: "Stanco degli algoritmi di ricerca per parole chiave? Laravel Scout ci permette di implementare algoritmi di ricerca custom. Perchè non implementare in Laravel i modelli BERT pre-addestrati di google?"
-        # talk_video_url:
-        speakers:
-          speaker_1: *marco_insabato
       talk_carlo_tafuro:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
+        start_datetime: 2022-11-17T14:30+01:00
+        end_datetime: 2022-11-17T15:10+01:00
         talk_title: "\"User Account Provisioning\" in Laravel + SSO con SimpleSAMLphp"
         talk_description: "L'esperienza che si intende descrivere nasce da specifiche richieste di un operatore commerciale che vende i suo prodotti attraverso più canali di ecommerce rivolti ad aree geografiche distinte.<br/>L'esigenza da soddisfare è stata quella di creare un unico aggregatore di account utente (clienti) con un cruscotto in cui l'utente potesse effettuare la registrazione e aggiornare i dati del proprio profilo comprese le credenziali di accesso.<br/>Il cruscotto è stato realizzato in Laravel e l'autenticazione al cruscotto stesso e ai diversi canali di ecommerce (basati su WooCommerce e Shopify) è stata governata da un identity provider in SSO basato su SimpleSAMLphp.<br/>L'identity provider necessita di avere un backend di dati utente per convalidare la password e per costruire un payload con i dati del profilo utente da condividere con i service provider federati (siti di ecommerce), è stato quindi sviluppato un modulo di SimpleSAMLphp che interroga il cruscotto Laravel attraverso una chiamata json ad una rotta api per convalidare la password fornita dall'utente sul modulo di login e per riceve in risposta i dati del profilo.<br/>Lo stesso cruscotto Laravel è stato a sua volta federato come service provider per un accesso in SSO grazie al package aacotroneo/laravel-saml2.<br/>Particolare attenzione è stata fornita alla protezione della rotta api esposta da Laravel ad uso e consumo di SimpleSAMLphp definendo un meccanismo di autenticazione della chiamata e modificando il rate limit impostato di default da Laravel sulle rotte di tipo api."
         # talk_video_url:
         speakers:
           speaker_1: *carlo_tafuro
+      talk_roberto_butti:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-11-17T15:10+01:00
+        end_datetime: 2022-11-17T15:50+01:00
+        talk_title: "Aumentare le prestazioni dell'applicazione web con Laravel Octane"
+        talk_description: "Laravel è molto più che un framework.<br/>Laravel è un ecosistema (supportato da una grande community) con tool, servizi e librerie che permettono di progettare, sviluppare, rilasciare ed evolvere applicazioni Web.<br/>Oggi, si parla molto di applicazioni performanti, scalabili, veloci, che siano in grado di supportare un elevato numero di utenti concorrenti e di conseguenza, di un elevato numero di richieste concorrenti.<br/>Nell'ecosistema Laravel, lo strumento Laravel Octane ci permette di ottimizzare le applicazioni tramite tecniche come il riuso delle istanze degli oggetti del framework, l'esecuzione asincrona, la predisposizione di meccanismi di storage (Swoole Table) e di caching.<br/>Durante il talk verrà mostrato l'utilizzo di Laravel Octane in una applicazione web, nelle fasi di installazione, configurazione, implementazione ed utilizzo dei meccanismi asincroni.<br/>Inoltre  verranno mostrate le implicazioni e gli accorgimenti da adottare per un utilizzo efficace di Laravel Octane per evitare problemi di memory leak e di deadlock."
+        # talk_video_url:
+        speakers:
+          speaker_1: *roberto_butti
+      talk_marco_insabato:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-11-17T16:20+01:00
+        end_datetime: 2022-11-17T17:00+01:00
+        talk_title: "Implementa la ricerca con il linguaggio naturale in Laravel"
+        talk_description: "Stanco degli algoritmi di ricerca per parole chiave? Laravel Scout ci permette di implementare algoritmi di ricerca custom. Perchè non implementare in Laravel i modelli BERT pre-addestrati di google?"
+        # talk_video_url:
+        speakers:
+          speaker_1: *marco_insabato
+      talk_bryan_ferracuti:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-11-17T17:00+01:00
+        end_datetime: 2022-11-17T17:40+01:00
+        talk_title: "Laravel Queue: quale driver scegliere"
+        talk_description: "Laravel supporta un utilizzo avanzato delle code attraverso diversi driver, Redis, Sql ed Sqs. Andremo a vedere perchè e come andare a implementare e configurare le code con i vari driver all'interno di un sistema complesso basato su Laravel , concludendo con un confronto fra l'utilizzo dei tre differenti Driver."
+        # talk_video_url:
+        speakers:
+          speaker_1: *bryan_ferracuti
