@@ -46,14 +46,18 @@ silver:
    site_url: "https://www.workwave.com/"
 bronze:
   sponsor0:
+    name: "cooder"
+    logo_filename: "cooder.png"
+    site_url: "http://www.cooder.it/"
+  sponsor1:
     name: "extera"
     logo_filename: "extera.png"
     site_url: "https://www.extera.com/"
-  sponsor1:
+  sponsor2:
     name: "Facile.it"
     logo_filename: "facile.svg"
     site_url: "https://www.facile.it/"
-  sponsor2:
+  sponsor3:
     name: "Synesthesia"
     logo_filename: "synesthesia.svg"
     site_url: "https://synesthesia.it/"
