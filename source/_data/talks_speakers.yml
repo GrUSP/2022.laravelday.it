@@ -102,7 +102,7 @@ tracks:
 
 days:
   day_1:
-    date: 2020-09-16T09:00
+    date: 2022-11-17T09:00
     title: "Day 1"
     talks:
       # service
