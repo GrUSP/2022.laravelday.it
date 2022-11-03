@@ -33,14 +33,18 @@ silver:
    logo_filename: "daruma.svg"
    site_url: "http://www.darumahq.com/"
  sponsor2:
+   name: "FitPrime Labs"
+   logo_filename: "fitprime-labs.svg"
+   site_url: "https://labs.fitprime.com"
+ sponsor3:
    name: "Invisiblefarm"
    logo_filename: "invisiblefarm.svg"
    site_url: "https://www.invisiblefarm.it"
- sponsor3:
+ sponsor4:
    name: "Sidea Group"
    logo_filename: "sidea.svg"
    site_url: "https://www.sideagroup.com/"
- sponsor4:
+ sponsor5:
    name: "workwave"
    logo_filename: "workwave.svg"
    site_url: "https://www.workwave.com/"
