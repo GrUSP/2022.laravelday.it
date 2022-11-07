@@ -2,7 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://2022.laravelday.it/welcome/about.html</loc>
+    
+    <lastmod>2022-11-07</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://2022.laravelday.it/workshop/workshop_laravel-vue.html</loc>
+    
+    <lastmod>2022-11-07</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2022.laravelday.it/schedule/index.html</loc>
+    
+    <lastmod>2022-11-07</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2022.laravelday.it/sponsor/index.html</loc>
+    
+    <lastmod>2022-11-07</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2022.laravelday.it/talks_speakers/index.html</loc>
     
     <lastmod>2022-11-07</lastmod>
     
@@ -30,34 +58,6 @@
   </url>
   
   <url>
-    <loc>https://2022.laravelday.it/welcome/scholarships.html</loc>
-    
-    <lastmod>2022-11-07</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2022.laravelday.it/welcome/where.html</loc>
-    
-    <lastmod>2022-11-07</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2022.laravelday.it/schedule/index.html</loc>
-    
-    <lastmod>2022-11-07</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2022.laravelday.it/sponsor/index.html</loc>
-    
-    <lastmod>2022-11-07</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://2022.laravelday.it/welcome/cfp.html</loc>
     
     <lastmod>2022-11-07</lastmod>
@@ -72,14 +72,14 @@
   </url>
   
   <url>
-    <loc>https://2022.laravelday.it/talks_speakers/index.html</loc>
+    <loc>https://2022.laravelday.it/welcome/scholarships.html</loc>
     
     <lastmod>2022-11-07</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2022.laravelday.it/welcome/about.html</loc>
+    <loc>https://2022.laravelday.it/welcome/where.html</loc>
     
     <lastmod>2022-11-07</lastmod>
     
